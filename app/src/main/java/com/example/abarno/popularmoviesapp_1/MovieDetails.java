@@ -1,6 +1,8 @@
 package com.example.abarno.popularmoviesapp_1;
 
-public class MovieDetails {
+import java.io.Serializable;
+
+public class MovieDetails implements Serializable {
 
     private String movieOverview;
     private String movieTitle;

@@ -33,8 +33,7 @@ public class MovieAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int position) {
-        return movieDetailsArrayList.get(position);
-    }
+        return movieDetailsArrayList.get(position); }
 
     @Override
     public long getItemId(int position) {

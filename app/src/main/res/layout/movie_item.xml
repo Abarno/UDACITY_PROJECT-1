@@ -3,19 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="50dp">
+    android:layout_marginLeft="25dp">
 
     <ImageView
         android:layout_width="151dp"
         android:layout_height="260dp"
         android:padding="5dp"
         android:id="@+id/movie_image"
-        android:layout_marginStart="20dp"/>
+        android:layout_marginStart="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/movie_name"
-        android:layout_marginStart="25dp"/>
+        android:layout_marginStart="20dp"/>
 
 </LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Popular Movies App - 1</string>
+    <string name="app_name">Popular Movies App</string>
+    <string name="highrated">Highest Rating</string>
+    <string name="mostpopular">Most Popular</string>
+    <string name="check_internet_connection">Network not available. Check internet connection.</string>
+    <string name="movie_title">Title</string>
 </resources>
