@@ -1,5 +1,8 @@
 package com.example.abarno.popularmoviesapp_1;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.io.Serializable;
 
 public class MovieDetails implements Serializable {
@@ -49,4 +52,5 @@ public class MovieDetails implements Serializable {
     public void setVoteAverage(double voteAverage) {
         this.voteAverage = voteAverage;
     }
+
 }

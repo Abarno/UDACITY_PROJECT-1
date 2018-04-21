@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -36,8 +37,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private GridView gridView;
     private MovieAdapter movieAdapter;
     private ArrayList<MovieDetails> movieDetailsArrayLists = new ArrayList<>();
-    private String mostpopular = "https://api.themoviedb.org/3/movie/popular?api_key='your API key'&language=en-US&page=1";
-    private String toprated = "https://api.themoviedb.org/3/movie/top_rated?api_key='your API key'&language=en-US&page=1";
+    private String mostpopular = BuildConfig.API_KEY_1;
+    private String toprated = BuildConfig.API_KEY_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
